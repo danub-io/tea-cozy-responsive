@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+}
+
+.header-box1 {
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+}
+
+.logo-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 15px;
+}
+
+.logo-img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.menu-box {
+  display: inline-flex;
+  align-items: center;
+  justify-items: flex-end;
+}
+
+.link {
+  padding-right: 10px;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.mission-box1 {
+  padding-top: 70px;
+  background-image: url(https://i.ibb.co/0hpkLdd/img-mission-background.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mtext-box {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.ttext-box {
+  margin: 50px 0 30px 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+.teaflex {
+  display: flex;
+  justify-content: center;
+}
+
+.tea-container {
+  max-width: 1000px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxes {
+  width: 300px;
+  padding: 0 15px 0 15px;
+}
+
+.img-inside {
+  height: 200px;
+}
+
+.a10px {
+  margin-top: 10px;
+}
+
+.locationstitle {
+  height: 500px;
+  background-image: url(https://i.ibb.co/X3DZnsH/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  align-items: center;
+}
+
+.ttext-box2{
+  padding: 100px 0px 0px 0px;
+  margin-bottom: 15px;
+}
+
+.locationsflex {
+  display: flex;
+  justify-content: center;
+}
+
+.locations-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.locations-boxes {
+  background-color: black;
+  width: 300px;
+  margin: 0px 20px 20px 20px;
+}
+
+.contactbox {
+  height: 200px;
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  text-align: left;
+  margin-top: 20px;
+}
